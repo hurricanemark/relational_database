@@ -1,0 +1,76 @@
+psql --username=freecodecamp --dbname=postgres
+\l
+CREATE DATABASE bikes;
+\c bikes
+
+CREATE TABLE bikes();
+ALTER TABLE bikes ADD COLUMN bike_id SERIAL PRIMARY KEY NOT NULL;
+ALTER TABLE bikes ADD COLUMN type VARCHAR(50)  NOT NULL;
+ALTER TABLE bikes ADD COLUMN size INT  NOT NULL;
+ALTER TABLE bikes ADD COLUMN available BOOLEAN NOT NULL DEFAULT 'TRUE';
+\d bikes;
++-----------+-----------------------+-----------+----------+----------------------------------------+
+|  Column   |         Type          | Collation | Nullable |                Default                 |
++-----------+-----------------------+-----------+----------+----------------------------------------+
+| bike_id   | integer               |           | not null | nextval('bikes_bike_id_seq'::regclass) |
+| type      | character varying(50) |           | not null |                                        |
+| size      | integer               |           | not null |                                        |
+| available | boolean               |           | not null | true                                   |
++-----------+-----------------------+-----------+----------+----------------------------------------+
+Indexes:
+    "bikes_pkey" PRIMARY KEY, btree (bike_id)
+Referenced by:
+    TABLE "rentals" CONSTRAINT "rentals_bike_id_fkey" FOREIGN KEY (bike_id) REFERENCES bikes(bike_id)
+
+
+CREATE TABLE customers();
+ALTER TABLE customers ADD COLUMN customer_id SERIAL PRIMARY KEY NOT NULL;
+ALTER TABLE customers ADD COLUMN phone VARCHAR(15) UNIQUE NOT NULL;
+ALTER TABLE customers ADD COLUMN name VARCHAR(40) NOT NULL;
+\d customers;
++-------------+-----------------------+-----------+----------+------------------------------------------------+
+|   Column    |         Type          | Collation | Nullable |                    Default                     |
++-------------+-----------------------+-----------+----------+------------------------------------------------+
+| customer_id | integer               |           | not null | nextval('customers_customer_id_seq'::regclass) |
+| phone       | character varying(15) |           | not null |                                                |
+| name        | character varying(40) |           | not null |                                                |
++-------------+-----------------------+-----------+----------+------------------------------------------------+
+Indexes:
+    "customers_pkey" PRIMARY KEY, btree (customer_id)
+    "customers_phone_key" UNIQUE CONSTRAINT, btree (phone)
+Referenced by:
+    TABLE "rentals" CONSTRAINT "rentals_customer_id_fkey" FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+
+
+CREATE TABLE rentals();
+ALTER TABLE rentals ADD COLUMN rental_id SERIAL PRIMARY KEY NOT NULL;
+ALTER TABLE rentals ADD COLUMN customer_id INT NOT NULL;
+ALTER TABLE rentals ADD FOREIGN KEY(customer_id) REFERENCES customers(customer_id);
+ALTER TABLE rentals ADD COLUMN bike_id INT NOT NULL;
+ALTER TABLE rentals ADD FOREIGN KEY(bike_id) REFERENCES bikes(bike_id);
+ALTER TABLE rentals ADD COLUMN date_rented DATE NOT NULL DEFAULT NOW();
+ALTER TABLE rentals ADD COLUMN date_returned DATE;
+\d rentals;
++---------------+---------+-----------+----------+--------------------------------------------+
+|    Column     |  Type   | Collation | Nullable |                  Default                   |
++---------------+---------+-----------+----------+--------------------------------------------+
+| rental_id     | integer |           | not null | nextval('rentals_rental_id_seq'::regclass) |
+| customer_id   | integer |           | not null |                                            |
+| bike_id       | integer |           | not null |                                            |
+| date_rented   | date    |           | not null | now()                                      |
+| date_returned | date    |           |          |                                            |
++---------------+---------+-----------+----------+--------------------------------------------+
+Indexes:
+    "rentals_pkey" PRIMARY KEY, btree (rental_id)
+Foreign-key constraints:
+    "rentals_bike_id_fkey" FOREIGN KEY (bike_id) REFERENCES bikes(bike_id)
+    "rentals_customer_id_fkey" FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+
+
+
+INSERT INTO bikes(type,size) VALUES('Mountain', 27);
+INSERT INTO bikes(type,size) VALUES('Mountain', 28);
+INSERT INTO bikes(type,size) VALUES('Mountain', 29);
+INSERT INTO bikes(type,size) VALUES('Road', 27);
+INSERT INTO bikes(type,size) VALUES('Road', 28),('Road',29);
+INSERT INTO bikes(type,size) VALUES('BMX', 19),('BMX',20),('BMX',21);
