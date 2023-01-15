@@ -1,7 +1,62 @@
-# universe -- Celestial Bodies Database
+# Relational Database
 
-[freecodecamp database exercise](https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database)
+This is a list freeCodeCamp exercises for earning a Relational Database certificate.  
 
-Postgres SQL rocks!
+Follow each topic for my insights in learning, developing and reviewing of each completed exercise.
+## Learn Bash by Building a Boilerplate
 
-![Snapshot](./complete.PNG)
+The terminal allows you to send text commands to your computer that can manipulate the file system, run programs, automate tasks, and much more.
+
+In this 170-lesson course, you will learn terminal commands by creating a website boilerplate using only the command line.
+
+## Learn Relational Databases by Building a Mario Database
+
+A relational database organizes data into tables that are linked together through relationships.
+
+In this 165-lesson course, you will learn the basics of a relational database by creating a PostgreSQL database filled with video game characters.
+
+## Celestial Bodies Database
+
+This is one of the required projects to earn your certification.
+
+For this project, you will build a database of celestial bodies using PostgreSQL.
+
+## Learn Bash Scripting by Building Five Programs
+
+Bash scripts combine terminal commands and logic into programs that can execute or automate tasks, and much more.
+
+In this 220-lesson course, you will learn more terminal commands and how to use them within Bash scripts by creating five small programs.
+
+## Learn SQL by Building a Student Database: Part 1
+
+SQL, or Structured Query Language, is the language for communicating with a relational database.
+
+In this 140-lesson course, you will create a Bash script that uses SQL to enter information about your computer science students into PostgreSQL.
+
+## Learn SQL by Building a Student Database: Part 2
+
+SQL join commands are used to combine information from multiple tables in a relational database
+
+In this 140-lesson course, you will complete your student database while diving deeper into SQL commands.
+
+## World Cup Database
+
+This is one of the required projects to earn your certification.
+
+For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
+
+## Learn Advanced Bash by Building a Kitty Ipsum Translator
+
+There's more to Bash commands than you might think.
+
+In this 140-lesson course, you will learn some more complex commands, and the details of how commands work.
+
+## Learn Bash and SQL by Building a Bike Rental Shop
+
+In this 210-lesson course, you will build an interactive Bash program that stores rental information for your bike rental shop using PostgreSQL.
+
+## Salon Appointment Scheduler
+
+This is one of the required projects to earn your certification.
+
+For this project, you will create an interactive Bash program that uses PostgreSQL to track the customers and appointments for your salon.
