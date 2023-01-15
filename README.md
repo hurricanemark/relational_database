@@ -60,3 +60,21 @@ In this 210-lesson course, you will build an interactive Bash program that store
 This is one of the required projects to earn your certification.
 
 For this project, you will create an interactive Bash program that uses PostgreSQL to track the customers and appointments for your salon.
+
+## Learn Git by Building an SQL Reference Object
+
+Git is a version control system that keeps track of all the changes you make to your codebase.
+
+In this 240-lesson course, you will learn how Git keeps track of your code by creating an object containing commonly used SQL commands.
+
+## Periodic Table Database
+
+This is one of the required projects to earn your certification.
+
+For this project, you will create Bash a script to get information about chemical elements from a periodic table database.
+
+## Number Guessing Game
+
+This is one of the required projects to earn your certification.
+
+For this project, you will use Bash scripting, PostgreSQL, and Git to create a number guessing game that runs in the terminal and saves user information.
