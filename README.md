@@ -42,13 +42,13 @@ SQL join commands are used to combine information from multiple tables in a rela
 
 In this 140-lesson course, you will complete your student database while diving deeper into SQL commands.
 
-## World Cup Database
+## [World Cup Database]()
 
 This is one of the required projects to earn your certification.
 
 For this project, you will create a Bash script that enters information from World Cup games into PostgreSQL, then query the database for useful statistics.
 
-## Learn Advanced Bash by Building a Kitty Ipsum Translator
+## [Learn Advanced Bash by Building a Kitty Ipsum Translator](https://github.com/hurricanemark/relational_database/tree/main/BuildAKittyIpsumTranslator#building-a-kitty-ipsum-translator)
 
 There's more to Bash commands than you might think.
 
