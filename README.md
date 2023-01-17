@@ -42,7 +42,7 @@ SQL join commands are used to combine information from multiple tables in a rela
 
 In this 140-lesson course, you will complete your student database while diving deeper into SQL commands.
 
-## [World Cup Database]()
+## [World Cup Database](https://github.com/hurricanemark/relational_database/tree/main/BuildWorldCupDatabaseFromCSVFile#building-a-world-cup-database)
 
 This is one of the required projects to earn your certification.
 
