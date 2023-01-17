@@ -8,8 +8,14 @@ This exercise emphasizes on extracting raw data (csv data) to create an operable
 
 ## Lesson learned
 
-* Good exercise to refresh on database procedural language.  Pay attention to logical JOIN operations.
+* Good exercise to refresh on database procedural language.  
+
+* Part 2: This is where you will hit paved dirt running.  You will learn a tons about SQL (see `insert_data.sh` file).  Pay attention to logical JOIN operations.
 
 [back](https://github.com/hurricanemark/relational_database#learn-sql-by-building-a-student-database-part-1)
 
-![snapshot](../Snapthots/StudentDatabaseP1.PNG)
+![snapshot 1](../Snapthots/StudentDatabaseP1.PNG)
+
+<br>
+
+![snapshot 2](../Snapthots/StudentDatabaseP2.PNG)
