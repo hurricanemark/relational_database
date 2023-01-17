@@ -31,3 +31,7 @@ This approach for prototyping a database cuts a lot of overhead.
 Thanks FCC!
 
 [back](https://github.com/hurricanemark/relational_database#learn-bash-scripting-by-building-five-programs)
+
+<br>
+
+![snapshot](../Snapthots/NumberGuessingGame.PNG)
