@@ -20,9 +20,9 @@ I revert to writing a straight through script to pass the FCC tests.
 
 * In order to verify and pass the FCC tests `Run`, you must pay attention to details on the expected naming convention.
 
-* Create a git branch and work on {feat:, fix:, refactor:} until you satisfy.  Then switch bach to the main branch and merge your branch.  Pretty basic git stuff.
+* Create a git branch and work on {feat:, fix:, refactor:} until you satisfy.  Then switch back to the main branch and merge your branch.  Pretty basic git stuff.
 
-* Use shorthand regex to check data type and length in user input.
+* Use shorthand regex to check data types and length in the user input.
 
 ## Lesson learned
 
