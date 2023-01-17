@@ -18,7 +18,7 @@ A relational database organizes data into tables that are linked together throug
 
 In this 165-lesson course, you will learn the basics of a relational database by creating a PostgreSQL database filled with video game characters.
 
-## Celestial Bodies Database
+## [Celestial Bodies Database](https://github.com/hurricanemark/relational_database/tree/main/BuildACelestialDatabase#building-a-celestial-bodies-database)
 
 This is one of the required projects to earn your certification.
 
