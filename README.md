@@ -30,7 +30,7 @@ Bash scripts combine terminal commands and logic into programs that can execute 
 
 In this 220-lesson course, you will learn more terminal commands and how to use them within Bash scripts by creating five small programs.
 
-## Learn SQL by Building a Student Database: Part 1
+## [Learn SQL by Building a Student Database: Part 1](https://github.com/hurricanemark/relational_database/tree/main/BuildDatabaseFromCSVFiles#building-a-student-database-from-csv-file)
 
 SQL, or Structured Query Language, is the language for communicating with a relational database.
 
