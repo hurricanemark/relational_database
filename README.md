@@ -58,7 +58,7 @@ In this 140-lesson course, you will learn some more complex commands, and the de
 
 In this 210-lesson course, you will build an interactive Bash program that stores rental information for your bike rental shop using PostgreSQL.
 
-## Salon Appointment Scheduler
+## [Salon Appointment Scheduler](https://github.com/hurricanemark/relational_database/tree/main/BuildASalonServiceAppointmentScheduler#building-a-salon-service-appointment-scheduler)
 
 This is one of the required projects to earn your certification.
 
