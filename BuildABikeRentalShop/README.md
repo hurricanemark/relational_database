@@ -6,6 +6,16 @@ You will walk away with a clearer understanding of efficient table creation and 
 
 The best way I know how to understand relational tables is by visualizing the Venn diagrams with shaded areas.
 
+<br/>
+
+A note, RDMB is as much about the meta data and the relational logic that binds and makes sense of the data.  So much works go into writing the procedural language (SQL functions/procedures) to enable efficient queries.
+
+<br>
+
+Data is the most valuable part of any software solutions.  Spend your time to get to know your data.  
+
+For the kind of solutions I have developed, data is the starting point of my R&D.  Prototyping using Bash scripting and Postgres DB has been essential to my practice.
+
 This has been a good exercise.
 
 Thanks FCC!

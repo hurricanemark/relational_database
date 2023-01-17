@@ -54,7 +54,7 @@ There's more to Bash commands than you might think.
 
 In this 140-lesson course, you will learn some more complex commands, and the details of how commands work.
 
-## Learn Bash and SQL by Building a Bike Rental Shop
+## [Learn Bash and SQL by Building a Bike Rental Shop](https://github.com/hurricanemark/relational_database/tree/main/BuildABikeRentalShop#building-a-bike-rental-shop-database)
 
 In this 210-lesson course, you will build an interactive Bash program that stores rental information for your bike rental shop using PostgreSQL.
 
