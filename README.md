@@ -4,7 +4,7 @@
 
 This repo contains a list of FCC exercises for earning a Relational Database certificate.  
 
-Follow each topic for my insights in learning, developing and reviewing of each completed exercise.
+Follow each topic for my insights in learning, developing and reviewing of each completed exercise.  
 
 ## Learn Bash by Building a Boilerplate
 
