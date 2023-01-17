@@ -13,7 +13,7 @@ CREATE TABLE game_users (
 );
 ```
 
-## Caviats
+## Caveats
 
 * My original approach was to break the tasks into functions and call funtion with pass-in params.  It works correctly (see my `alternative_script.sh`).  However, the FCC tests could not see pass the swanky scripting.  So, it fails to pass their tests.  
 I revert to writing a straight through script to pass the FCC tests.

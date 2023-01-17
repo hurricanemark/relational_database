@@ -70,13 +70,13 @@ Git is a version control system that keeps track of all the changes you make to 
 
 In this 240-lesson course, you will learn how Git keeps track of your code by creating an object containing commonly used SQL commands.
 
-## Periodic Table Database
+## [Periodic Table Database](https://github.com/hurricanemark/relational_database/tree/main/BuildPeriodicTableDatabase#building-a-periodic-table-database)
 
 This is one of the required projects to earn your certification.
 
 For this project, you will create Bash a script to get information about chemical elements from a periodic table database.
 
-## Number Guessing Game
+## [Number Guessing Game](https://github.com/hurricanemark/relational_database/tree/main/BuildANumberGuessingGameDatabase#building-a-number-guessing-game)
 
 This is one of the required projects to earn your certification.
 
