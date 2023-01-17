@@ -36,7 +36,7 @@ SQL, or Structured Query Language, is the language for communicating with a rela
 
 In this 140-lesson course, you will create a Bash script that uses SQL to enter information about your computer science students into PostgreSQL.
 
-## Learn SQL by Building a Student Database: Part 2
+## [Learn SQL by Building a Student Database: Part 2](https://github.com/hurricanemark/relational_database/tree/main/BuildDatabaseFromCSVFiles#building-a-student-database-from-csv-file)
 
 SQL join commands are used to combine information from multiple tables in a relational database
 
