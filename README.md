@@ -1,8 +1,11 @@
 # Relational Database Certification
 
+[RDB Certificate](https://www.freecodecamp.org/certification/marknltv/relational-database-v8)
+
 This repo contains a list of FCC exercises for earning a Relational Database certificate.  
 
 Follow each topic for my insights in learning, developing and reviewing of each completed exercise.
+
 ## Learn Bash by Building a Boilerplate
 
 The terminal allows you to send text commands to your computer that can manipulate the file system, run programs, automate tasks, and much more.
