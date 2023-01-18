@@ -12,13 +12,13 @@ The terminal allows you to send text commands to your computer that can manipula
 
 In this 170-lesson course, you will learn terminal commands by creating a website boilerplate using only the command line.
 
-## Learn Relational Databases by Building a Mario Database
+## [Learn Relational Databases by Building a Mario Database](https://github.com/hurricanemark/relational_database/tree/main/BuildingMarioBrosDatabase#building-mario-bros-database)
 
 A relational database organizes data into tables that are linked together through relationships.
 
 In this 165-lesson course, you will learn the basics of a relational database by creating a PostgreSQL database filled with video game characters.
 
--- No sublink available.  I finished this part while on a moving bus.  forgot to archive... )-:
+You must go through this exercise with the intend to learn.  This is the foundation refresher lesson. 
 
 ## [Celestial Bodies Database](https://github.com/hurricanemark/relational_database/tree/main/BuildACelestialDatabase#building-a-celestial-bodies-database)
 
