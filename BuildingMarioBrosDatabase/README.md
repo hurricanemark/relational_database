@@ -5,7 +5,7 @@ This is one of the more intense exercise on PostgreSQL.
 You would start out performing single action SQL like pulling teeth.  You gradually advance toward more complex queries and eventually learn the inner working of 
 
 ## **one-to-one** tables construction:
-Where: both table have primary key used as UNIQUE foreign key to one another.
+Where: both tables have primary key used as UNIQUE foreign key to one another.
 
 ## **one-to-many** tables construnction.
 Where: both tables have primary key used as foreign key to one another.  (absent UNIQUE key).
