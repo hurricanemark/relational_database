@@ -1,10 +1,10 @@
 # Building A Celestial Bodies Database
 
-I have developed a few enterprise software solutions using MySQL, Procedural Language\SQL.  PostgresSQL and PL\pSql was not so different.  This enabled me to breeze through this exercise  fairly quick.
+I have developed a few enterprise software solutions using MySQL, Procedural Language\SQL.  PostgresSQL and PL\pSql was not so different.  I was able to breeze through this exercise fairly quick.
 
-This exercise once again emphasizes on relational database topics of one-to-one, on-to-many, and many-to-many relationships.
+This exercise once again emphasizes on relational database topics of one-to-one, one-to-many, and many-to-many relationships.
 
-You will walk away with a clearer understanding of efficient table creation and querying for JOIN logics.
+You walk away with a clearer understanding of efficient table creation and querying for JOIN logics.
 
 The best way I know how to understand relational tables is by visualizing the Venn diagrams with shaded areas.
 
